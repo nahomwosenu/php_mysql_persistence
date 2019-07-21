@@ -11,7 +11,7 @@
  You can make those changes on lines 5-8 of Persist.php file.
  
  Let's see how to use the Persist.php file in real example.
-
+```php
  <?php
  	require_once "Persist.php";
  	class Student{
@@ -42,12 +42,16 @@
  		}
  	}
  ?>
+ ```
  ### additionally
  to update a field you can call:
+ ```php
   Persist::update($instance_var,"table_name");
+  ```
  to check if a specific value exists
+ ```php
   Persist::exists($key,$value,$entity); where $key is the column, $value is the specific value and $entity is the name of the table
+  ```
  # About Me
-  Follow me on instagram: nahom_alphag33k
-  Hire me on Upwork: https://upwork.com/fl/nahometete
-  
+  Follow me on instagram: nahom_alphag33k <br/>
+  Hire me on Upwork: [https://upwork.com/fl/nahometete]
